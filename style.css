@@ -27,7 +27,7 @@ p{
 /*--------Hero START----------*/
   #hero{
     position: relative;
-    background-image: url(https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-6/367388861_1106904490283534_5225152954707023558_n.jpg?stp=cp6_dst-jpg&_nc_cat=101&ccb=1-7&_nc_sid=52f669&_nc_eui2=AeGLZJjYNi8GwtFZ5gKZ_SAS2PjlO4x1OsvY-OU7jHU6y9-a98RHuKylkZjZFqVYfcW3BAUt-LG4ESvNxc6xGncx&_nc_ohc=_l7Kn5Hi4AoAX9X1JJP&_nc_ht=scontent.fdac14-1.fna&oh=00_AfCLHFgF2OLFVjqR8-T83d21R7dE7tNs61bbUoUYBNC5dg&oe=6528F042);
+   background-image: url(https://media.wired.com/photos/598e35fb99d76447c4eb1f28/master/pass/phonepicutres-TA.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -60,9 +60,11 @@ p{
 }
  .acc:hover{
   transform: scale(1.1);
-  transform: translate(0.5s);
+  /* transform: translate(0.5s); */
 }
 /*-----------About End-------------*/
+
+
 
 /*----------SKILL START--------------*/
 .skill{
@@ -75,18 +77,24 @@ p{
 /*------------------Facts Start-----------------*/
 #heru{
   position: relative;
-  background-image: url(https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-6/367388861_1106904490283534_5225152954707023558_n.jpg?stp=cp6_dst-jpg&_nc_cat=101&ccb=1-7&_nc_sid=52f669&_nc_eui2=AeGLZJjYNi8GwtFZ5gKZ_SAS2PjlO4x1OsvY-OU7jHU6y9-a98RHuKylkZjZFqVYfcW3BAUt-LG4ESvNxc6xGncx&_nc_ohc=_l7Kn5Hi4AoAX9X1JJP&_nc_ht=scontent.fdac14-1.fna&oh=00_AfCLHFgF2OLFVjqR8-T83d21R7dE7tNs61bbUoUYBNC5dg&oe=6528F042);
+  background-image: url(https://media.wired.com/photos/598e35fb99d76447c4eb1f28/master/pass/phonepicutres-TA.jpg);
   height: 100vh;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+@media(max-width:760px) {
+  #heru{
+    height: 200vh;
+  }
+  
 }
 
 
 .fac{
   width: 250px;
   height: 200px;
-  
+  margin: auto;
   border-radius: 20px;
   padding: 10px;
   background-color: rgb(233, 227, 227);
@@ -154,7 +162,7 @@ p{
   transform: scale(1.4);
 }
 .ggg{
-  max-width:300px;
+  width: 100%;
   overflow: hidden;
 }
 .bat{
