@@ -1,0 +1,286 @@
+p{
+  color: navy;
+}
+
+/*-------Navber Start-------*/
+.na {
+  font-size: 30px;
+  color: brown;
+}
+.na i{
+  font-size: 30px;
+  padding: 10px;
+  color: blue;
+}
+.na i:hover{
+  color: white;
+  background-color: blue;
+  border-radius: 50%;
+}
+.nav-right {
+  justify-content: flex-end;
+  width: 100%;
+  font-size: 30px;
+}
+/*---------Navber End---------*/
+
+/*--------Hero START----------*/
+  #hero{
+    position: relative;
+    background-image: url(https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-6/367388861_1106904490283534_5225152954707023558_n.jpg?stp=cp6_dst-jpg&_nc_cat=101&ccb=1-7&_nc_sid=52f669&_nc_eui2=AeGLZJjYNi8GwtFZ5gKZ_SAS2PjlO4x1OsvY-OU7jHU6y9-a98RHuKylkZjZFqVYfcW3BAUt-LG4ESvNxc6xGncx&_nc_ohc=_l7Kn5Hi4AoAX9X1JJP&_nc_ht=scontent.fdac14-1.fna&oh=00_AfCLHFgF2OLFVjqR8-T83d21R7dE7tNs61bbUoUYBNC5dg&oe=6528F042);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-attachment: fixed;
+  }
+  #hero .overly {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    opacity: 0.5;
+  }
+
+  #hero .content{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    color: rgb(248, 243, 243);
+  }
+
+/*----------HERO END--------------/*
+
+/*-----------About Start-------------*/
+
+ .acc{
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius:20px;
+}
+ .acc:hover{
+  transform: scale(1.1);
+  transform: translate(0.5s);
+}
+/*-----------About End-------------*/
+
+/*----------SKILL START--------------*/
+.skill{
+  background-color: rgb(184, 184, 202);
+  padding: 20px;
+}
+/*----------SKILL END--------------*/
+
+
+/*------------------Facts Start-----------------*/
+#heru{
+  position: relative;
+  background-image: url(https://scontent.fdac14-1.fna.fbcdn.net/v/t39.30808-6/367388861_1106904490283534_5225152954707023558_n.jpg?stp=cp6_dst-jpg&_nc_cat=101&ccb=1-7&_nc_sid=52f669&_nc_eui2=AeGLZJjYNi8GwtFZ5gKZ_SAS2PjlO4x1OsvY-OU7jHU6y9-a98RHuKylkZjZFqVYfcW3BAUt-LG4ESvNxc6xGncx&_nc_ohc=_l7Kn5Hi4AoAX9X1JJP&_nc_ht=scontent.fdac14-1.fna&oh=00_AfCLHFgF2OLFVjqR8-T83d21R7dE7tNs61bbUoUYBNC5dg&oe=6528F042);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+.fac{
+  width: 250px;
+  height: 200px;
+  
+  border-radius: 20px;
+  padding: 10px;
+  background-color: rgb(233, 227, 227);
+}
+.fac:hover{
+  transform: scale(1.1);
+}
+.icon i{
+  font-size: 70px;
+  padding: 20px;
+  border: 1rem;
+  color: blue;
+  border-radius: 50%;
+}
+.icon i:hover{
+  color: white;
+  opacity: 0.5;
+}
+/*-----------------Facts ENd------------------*/
+
+
+
+/*-------------Resume Start------------------*/
+.ti{
+  color: navy;
+}
+.te{
+  display: inline-block;
+  background-color: rgb(228, 223, 223);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/*-------------Resume end------------------*/
+
+/*----------PORTFOLIO NAAVBER--------------*/
+.nav-ri{
+  justify-content: flex-end;
+  width: 50%;
+  background-color: white;
+  
+}
+.nav-item:hover{
+  background-color: rgb(29, 143, 172);
+  border-radius: 10PX;
+}
+/*-----------PORTFOLIO NAVBER END---------------*/
+
+
+
+/*-------------PORTFOLIO START------------------*/
+.ig{
+  background-color: rgb(181, 139, 230);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  border-radius: 20px;
+}
+.code{
+  padding: 20px;
+}
+.ggg img{
+  width: 100%;
+  transition: 0.8s;
+}
+.ggg img:hover{
+  transform: scale(1.4);
+}
+.ggg{
+  max-width:300px;
+  overflow: hidden;
+}
+.bat{
+  background-color: rgb(243, 15, 148);
+  color: rgb(8, 8, 8);
+  padding: 5px;
+  border-radius: 10px;
+}
+/*--------------PORTFOLIO END-----------------*/
+
+
+
+/*------------SCERVICES START---------------------*/
+.card-body{
+  width: 350px;
+  height: 200px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 20px;
+}
+.con{
+  width: 70px;
+  height: 70PX;
+  font-size: 50px;
+  padding: 10px;
+  border-radius: 50%;
+  color: blue;
+ }
+ .con:hover{
+  background-color:navy;
+  color:white;
+ }
+.ser{
+  padding: 20px;
+}
+/*--------------SCERVICES END-------------------*/
+
+
+/*--------------SWPER START----------------*/
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+.autoplay-progress {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 10;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: var(--swiper-theme-color);
+}
+
+.autoplay-progress svg {
+  --progress: 0;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  stroke-width: 4px;
+  stroke: var(--swiper-theme-color);
+  fill: none;
+  stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+  stroke-dasharray: 125.6;
+  transform: rotate(-90deg);
+}
+/*-------------SWPER END-----------------*/
+/*--------------CASTOM CSS START---------------*/
+.ikk{
+  border-radius: 50%;
+}
+.pic{
+  background-color: rgb(221, 196, 196);
+  padding: 10px;
+}
+
+/*------------------CASTOM CSS END-----------------------*/
+
+
+
+/*-----------CONTACTS START--------------*/
+.cont{
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  padding: 20px;
+  border-radius: 20px;
+
+}
+
+.pp{
+  font-size: 30px;
+  padding: 20px;
+  border-radius: 50%;
+}
+.pp:hover{
+  background-color: blue;
+  color: white;
+}
+
+.doc{
+  font-size: 30px;
+  color: navy;
+}
+
+/*-----------CONTACTS END--------------*/
+
+
+
+
+
+footer{
+  text-align: center;
+ background-color: orange;
+ padding: 20px;
+  
+
+}
